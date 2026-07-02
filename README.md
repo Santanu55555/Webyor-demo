@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 What This Project Is
+##  What This Project Is
 
 Webyor's official agency website — built to prove the studio's engineering standard through the site itself, not through a sales pitch. The brief was: premium visual design, strong performance, and SEO/AIO readiness baked in from the start, so the site functions as a live demonstration of the kind of work the agency does.
 
@@ -16,7 +16,7 @@ Webyor's official agency website — built to prove the studio's engineering sta
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -33,7 +33,7 @@ Webyor's official agency website — built to prove the studio's engineering sta
 
 ---
 
-## ✨ Key Engineering Highlights
+##  Key Engineering Highlights
 
 - **Premium, dynamic UI** — vibrant color system, dark mode, and glassmorphism used deliberately rather than templated defaults.
 - **Micro-interactions & scroll-reveals** — subtle motion design throughout the page to guide attention without feeling gimmicky.
@@ -43,7 +43,7 @@ Webyor's official agency website — built to prove the studio's engineering sta
 
 ---
 
-## 🔍 SEO & AIO (AI Optimization) Strategy
+##  SEO & AIO (AI Optimization) Strategy
 
 Built to be legible to both search engines and AI crawlers/answer engines:
 
@@ -57,7 +57,30 @@ This mirrors the "Technical SEO, AIO & Growth" service the agency itself offers 
 
 ---
 
-## 🧩 Core Site Sections
+##  Performance & Core Web Vitals
+
+Verified via [Google PageSpeed Insights](https://pagespeed.web.dev/) (Desktop):
+
+| Category | Score |
+|---|---|
+| Performance | **100** |
+| Accessibility | 96 |
+| Best Practices | **100** |
+| SEO | **100** |
+
+| Metric | Value |
+|---|---|
+| First Contentful Paint (FCP) | 0.3 s |
+| Largest Contentful Paint (LCP) | 0.7 s |
+| Total Blocking Time (TBT) | 20 ms |
+| Cumulative Layout Shift (CLS) | 0 |
+| Speed Index | 0.9 s |
+
+A perfect Performance score with sub-second LCP is notable given the site runs Framer Motion, GSAP, and Three.js on the front end — it reflects deliberate optimization work (server rendering, careful animation scoping, asset/loading discipline) rather than a lightweight page getting a free pass.
+
+---
+
+##  Core Site Sections
 
 - **Hero** — value proposition, dual CTA (Book a Discovery Call / WhatsApp)
 - **Trust strip** — direct engineer access, fixed pricing, lifetime bug-fix guarantee
@@ -69,13 +92,14 @@ This mirrors the "Technical SEO, AIO & Growth" service the agency itself offers 
 
 ---
 
-## 🌍 Deployment
+##  Deployment
 
+- Domain purchased, configured, and deployed end-to-end (DNS, hosting, SSL) by me
 - Deployed on Vercel with a custom domain (webyor.com)
 - Production-ready for Google Search Console submission and rapid indexing
 
 ---
 
-## 🔒 A Note on Source Code
+##  A Note on Source Code
 
 This repository/README exists specifically so the project can be discussed and demonstrated (architecture, decisions, stack, strategy) **without publishing the underlying codebase**. Happy to walk through implementation details, trade-offs, or specific technical decisions in conversation — just not the raw source.
